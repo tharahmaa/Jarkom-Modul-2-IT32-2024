@@ -1,8 +1,88 @@
 # Jarkom-Modul-2-IT32-2024
+
 ## Laporan Resmi Praktikum Jarkom Modul 4 2024
+
 **Kelompok IT32 - Menggunakan Topologi 2**
 
-Soal:
+**Persiapan:**
+config network erangel:
+  auto eth0
+  iface eth0 inet dhcp
+  
+  auto eth1
+  iface eth1 inet static
+  	address 10.63.1.1
+  	netmask 255.255.255.0
+  
+  auto eth2
+  iface eth2 inet static
+  	address 10.63.2.1
+  	netmask 255.255.255.0
+  
+  auto eth3
+  iface eth3 inet static
+  	address 10.63.3.1
+  	netmask 255.255.255.0
+
+config network lipovka:
+  auto eth0
+  iface eth0 inet static
+      address 10.63.1.2
+      netmask 255.255.255.0
+      gateway 10.63.1.1
+
+config network stalber:
+  auto eth0
+  iface eth0 inet static
+      address 10.63.1.3
+      netmask 255.255.255.0
+      gateway 10.63.1.1
+
+config network serverny:
+  auto eth0
+  iface eth0 inet static
+      address 10.63.1.4
+      netmask 255.255.255.0
+      gateway 10.63.1.1
+
+config network pochinki:
+  auto eth0
+  iface eth0 inet static
+      address 10.63.3.2
+      netmask 255.255.255.0
+      gateway 10.63.3.1
+
+config network apartments:
+  auto eth0
+  iface eth0 inet static
+      address 10.63.2.5
+      netmask 255.255.255.0
+      gateway 10.63.2.1
+
+config network mylta:
+auto eth0
+iface eth0 inet static
+    address 10.63.2.4
+    netmask 255.255.255.0
+    gateway 10.63.2.1
+    
+config network georgopol:
+  auto eth0
+  iface eth0 inet static
+      address 10.63.2.3
+      netmask 255.255.255.0
+      gateway 10.63.2.1
+
+config network ruins:
+  auto eth0
+  iface eth0 inet static
+      address 10.63.2.2
+      netmask 255.255.255.0
+      gateway 10.63.2.1
+
+
+
+### Soal & Pengerjaan:
 
 Untuk membantu pertempuran di Erangel, kamu ditugaskan untuk membuat jaringan komputer yang akan digunakan sebagai alat komunikasi. Sesuaikan rancangan Topologi dengan rancangan dan pembagian yang berada di link yang telah disediakan, dengan ketentuan nodenya sebagai berikut :
 
