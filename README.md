@@ -6,7 +6,7 @@
 
 **Persiapan:**
 config network erangel:
-  auto eth0
+  'auto eth0
   iface eth0 inet dhcp
   
   auto eth1
@@ -22,63 +22,63 @@ config network erangel:
   auto eth3
   iface eth3 inet static
   	address 10.63.3.1
-  	netmask 255.255.255.0
+  	netmask 255.255.255.0'
 
 config network lipovka:
-  auto eth0
+  'auto eth0
   iface eth0 inet static
       address 10.63.1.2
       netmask 255.255.255.0
-      gateway 10.63.1.1
+      gateway 10.63.1.1'
 
 config network stalber:
-  auto eth0
+  'auto eth0
   iface eth0 inet static
       address 10.63.1.3
       netmask 255.255.255.0
-      gateway 10.63.1.1
+      gateway 10.63.1.1'
 
 config network serverny:
-  auto eth0
+  'auto eth0
   iface eth0 inet static
       address 10.63.1.4
       netmask 255.255.255.0
-      gateway 10.63.1.1
+      gateway 10.63.1.1'
 
 config network pochinki:
-  auto eth0
+  'auto eth0
   iface eth0 inet static
       address 10.63.3.2
       netmask 255.255.255.0
-      gateway 10.63.3.1
+      gateway 10.63.3.1'
 
 config network apartments:
-  auto eth0
+  'auto eth0
   iface eth0 inet static
       address 10.63.2.5
       netmask 255.255.255.0
-      gateway 10.63.2.1
+      gateway 10.63.2.1'
 
 config network mylta:
-auto eth0
+'auto eth0
 iface eth0 inet static
     address 10.63.2.4
     netmask 255.255.255.0
-    gateway 10.63.2.1
+    gateway 10.63.2.1'
     
 config network georgopol:
-  auto eth0
+  'auto eth0
   iface eth0 inet static
       address 10.63.2.3
       netmask 255.255.255.0
-      gateway 10.63.2.1
+      gateway 10.63.2.1'
 
 config network ruins:
-  auto eth0
+  'auto eth0
   iface eth0 inet static
       address 10.63.2.2
       netmask 255.255.255.0
-      gateway 10.63.2.1
+      gateway 10.63.2.1'
 
 
 
