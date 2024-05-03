@@ -5,7 +5,9 @@
 **Kelompok IT32 - Menggunakan Topologi 2**
 
 **Persiapan:**
+
 config network erangel:
+
   `auto eth0
   iface eth0 inet dhcp
   auto eth1
@@ -22,6 +24,7 @@ config network erangel:
   	netmask 255.255.255.0`
 
 config network lipovka:
+
   `auto eth0
   iface eth0 inet static
       address 10.63.1.2
@@ -29,6 +32,7 @@ config network lipovka:
       gateway 10.63.1.1`
 
 config network stalber:
+  
   `auto eth0
   iface eth0 inet static
       address 10.63.1.3
@@ -43,6 +47,7 @@ config network serverny:
       gateway 10.63.1.1`
 
 config network pochinki:
+ 
   `auto eth0
   iface eth0 inet static
       address 10.63.3.2
@@ -50,6 +55,7 @@ config network pochinki:
       gateway 10.63.3.1`
 
 config network apartments:
+  
   `auto eth0
   iface eth0 inet static
       address 10.63.2.5
@@ -57,13 +63,15 @@ config network apartments:
       gateway 10.63.2.1`
 
 config network mylta:
-`auto eth0
-iface eth0 inet static
-    address 10.63.2.4
-    netmask 255.255.255.0
-    gateway 10.63.2.1`
+
+  `auto eth0
+  iface eth0 inet static
+      address 10.63.2.4
+      netmask 255.255.255.0
+      gateway 10.63.2.1`
     
 config network georgopol:
+
   `auto eth0
   iface eth0 inet static
       address 10.63.2.3
@@ -71,6 +79,7 @@ config network georgopol:
       gateway 10.63.2.1`
 
 config network ruins:
+
   `auto eth0
   iface eth0 inet static
       address 10.63.2.2
