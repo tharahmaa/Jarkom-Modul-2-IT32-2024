@@ -952,8 +952,6 @@ Worker tersebut harus dapat di akses dengan tamat.xxx.com dengan alias www.tamat
   " > /etc/bind/named.conf.options
   
   service bind9 restart
-  
-  ------------------------------------------------------------------------------------------
   ```
 
 - GEORGOPOL:
