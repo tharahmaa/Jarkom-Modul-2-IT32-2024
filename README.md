@@ -781,7 +781,8 @@ Worker tersebut harus dapat di akses dengan tamat.xxx.com dengan alias www.tamat
   apt-get install bind9 -y
   mkdir /etc/bind/jarkom
   
-  echo 'zone "pochinki.com" {
+  echo '
+  zone "pochinki.com" {
       type master;
       file "/etc/bind/jarkom/pochinki.com";
   
@@ -964,28 +965,19 @@ Worker tersebut harus dapat di akses dengan tamat.xxx.com dengan alias www.tamat
       masters { 10.63.3.2; }; # IP Pochinki
       file "/etc/bind/jarkom/slave.airdrop.it32.com";
   };
-  ' >> /etc/bind/named.conf.local
-  
-  
-  echo '
+
   zone "redzone.it32.com" {
       type slave;
       masters { 10.63.3.2; }; # IP Pochinki
       file "/etc/bind/jarkom/slave.redzone.it32.com";
   };
-  ' >> /etc/bind/named.conf.local
-  
-  
-  echo '
+
   zone "loot.it32.com" {
       type slave;
       masters { 10.63.3.2; }; # IP Pochinki
       file "/etc/bind/jarkom/slave.loot.it32.com";
   };
-  ' >> /etc/bind/named.conf.local
-  
-  
-  echo '
+
   zone "airdrop.it32.com" {
       type slave;
       masters { 10.63.3.2; }; # IP Pochinki
@@ -1005,17 +997,12 @@ Worker tersebut harus dapat di akses dengan tamat.xxx.com dengan alias www.tamat
       masters { 10.63.3.2; }; # IP Pochinki
       file "/etc/bind/jarkom/slave.loot.it32.com";
   };
-  ' >> /etc/bind/named.conf.local
-  
-  
-  echo '
+
   zone "redzone.it32.com" {
       type slave;
       masters { 10.63.3.2; }; # IP Pochinki
       file "/etc/bind/jarkom/slave.redzone.it32.com";
   };
-  ' >> /etc/bind/named.conf.local
-  
   
   zone "airdrop.it32.com" {
       type slave;
@@ -1035,17 +1022,12 @@ Worker tersebut harus dapat di akses dengan tamat.xxx.com dengan alias www.tamat
       file "/var/lib/bind/loot.it32.com";
   };
   
-  
-  echo '
   zone "medkit.airdrop.it32.com" {
       type slave;
       masters { 10.63.3.2; }; # IP Pochinki
       file "/etc/bind/jarkom/slave.medkit.airdrop.it32.com";
   };
-  ' >> /etc/bind/named.conf.local
-  
-  
-  echo '
+
   zone "siren.redzone.it32.com" {
       type delegation;
       masters { 10.63.3.2; }; # IP Georgopol
