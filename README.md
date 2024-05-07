@@ -106,7 +106,7 @@ config network ruins:
       gateway 10.63.2.1
   ```
 
-command di console:
+**command di console:**
 ```
 iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE -s 10.63.0.0/16
 echo nameserver 192.168.122.1 > /etc/resolv.conf
@@ -139,7 +139,10 @@ Markas pusat juga meminta dibuatkan tiga Web Server yaitu Severny, Stalber, dan 
     service bind9 restart
 
    ```
-1. b). DNS slave georgopol
+   b). DNS slave georgopol
+
+   ```
+   ```
 
 
 
