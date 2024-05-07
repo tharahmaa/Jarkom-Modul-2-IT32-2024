@@ -977,32 +977,6 @@ Worker tersebut harus dapat di akses dengan tamat.xxx.com dengan alias www.tamat
       masters { 10.63.3.2; }; # IP Pochinki
       file "/etc/bind/jarkom/slave.loot.it32.com";
   };
-
-  zone "airdrop.it32.com" {
-      type slave;
-      masters { 10.63.3.2; }; # IP Pochinki
-      file "/etc/bind/jarkom/slave.airdrop.it32.com";
-  };
-  
-  
-  zone "redzone.it32.com" {
-      type slave;
-      masters { 10.63.3.2; }; # IP Pochinki
-      file "/etc/bind/jarkom/slave.redzone.it32.com";
-  };
-  
-  
-  zone "loot.it32.com" {
-      type slave;
-      masters { 10.63.3.2; }; # IP Pochinki
-      file "/etc/bind/jarkom/slave.loot.it32.com";
-  };
-
-  zone "redzone.it32.com" {
-      type slave;
-      masters { 10.63.3.2; }; # IP Pochinki
-      file "/etc/bind/jarkom/slave.redzone.it32.com";
-  };
   
   zone "airdrop.it32.com" {
       type slave;
