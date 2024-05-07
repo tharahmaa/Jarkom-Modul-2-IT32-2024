@@ -785,6 +785,7 @@ Worker tersebut harus dapat di akses dengan tamat.xxx.com dengan alias www.tamat
   zone "pochinki.com" {
       type master;
       file "/etc/bind/jarkom/pochinki.com";
+  };
   
   zone "airdrop.it32.com" {
       type master;
@@ -792,6 +793,7 @@ Worker tersebut harus dapat di akses dengan tamat.xxx.com dengan alias www.tamat
       also-notify { 10.63.3.2; };
       allow-transfer { 10.63.3.2; };
       file "/etc/bind/jarkom/airdrop.it32.com";
+  };
   
   zone "redzone.it32.com" {
       type master;
@@ -799,6 +801,7 @@ Worker tersebut harus dapat di akses dengan tamat.xxx.com dengan alias www.tamat
       also-notify { 10.63.3.2; };
       allow-transfer { 10.63.3.2; };
       file "/etc/bind/jarkom/redzone.it32.com";
+  };
   
   zone "loot.it32.com" {
       type master;
@@ -806,6 +809,7 @@ Worker tersebut harus dapat di akses dengan tamat.xxx.com dengan alias www.tamat
       also-notify { 10.63.3.2; };
       allow-transfer { 10.63.3.2; };
       file "/etc/bind/jarkom/loot.it32.com";
+  };
   
   zone "2.3.63.10.in-addr.arpa" {
           type master;
@@ -813,10 +817,12 @@ Worker tersebut harus dapat di akses dengan tamat.xxx.com dengan alias www.tamat
           also-notify { 10.63.3.2; };
           allow-transfer { 10.63.3.2; };
           file "/etc/bind/jarkom/2.3.63.10.in-addr.arpa";
+  };
   
   zone "medkit.airdrop.it32.com" {
       type master;
       file "/etc/bind/jarkom/medkit.airdrop.it32.com";
+  };
   
   zone "siren.redzone.it32.com" {
       type master;
