@@ -78,11 +78,13 @@ config network apartments:
 
 config network mylta:
 
-  `auto eth0
+  ```
+  auto eth0
   iface eth0 inet static
       address 10.63.2.4
       netmask 255.255.255.0
-      gateway 10.63.2.1`
+      gateway 10.63.2.1
+  ```
     
 config network georgopol:
 
