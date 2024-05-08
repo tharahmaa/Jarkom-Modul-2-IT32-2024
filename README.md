@@ -1103,4 +1103,6 @@ Worker tersebut harus dapat di akses dengan tamat.xxx.com dengan alias www.tamat
   www.log IN      CNAME   www.siren.redzone.it32.com.
   '  > /etc/bind/delegasi/siren.redzone.it32.com
 
+  service bind9 restart
+
   ```
