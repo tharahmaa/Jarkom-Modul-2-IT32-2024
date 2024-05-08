@@ -777,6 +777,7 @@ Worker tersebut harus dapat di akses dengan tamat.xxx.com dengan alias www.tamat
 - POCHINKI:
   
   ```
+  #!/bin/bash
   apt-get update
   apt-get install bind9 -y
   mkdir /etc/bind/jarkom
@@ -961,6 +962,7 @@ Worker tersebut harus dapat di akses dengan tamat.xxx.com dengan alias www.tamat
 - GEORGOPOL:
   
   ```
+  #!/bin/bash
   echo '
   zone "airdrop.it32.com" {
       type slave;
