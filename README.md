@@ -901,8 +901,6 @@ Worker tersebut harus dapat di akses dengan tamat.xxx.com dengan alias www.tamat
   www           IN      CNAME   medkit.airdrop.it32.com.
   ' > /etc/bind/jarkom/medkit.airdrop.it32.com
   
-  mkdir /etc/bind/delegasi
-  
   echo ';
   ; BIND data file for local loopback interface
   ;
@@ -1083,8 +1081,7 @@ Worker tersebut harus dapat di akses dengan tamat.xxx.com dengan alias www.tamat
      file "/etc/bind/delegasi/siren.redzone.it32.com";
   };' >> /etc/bind/named.conf.local
   
-  
-  mkdir /etc/bind/delegasi
+
   cp /etc/bind/db.local /etc/bind/delegasi/siren.redzone.it32.com
   
   
